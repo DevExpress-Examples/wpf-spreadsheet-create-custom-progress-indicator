@@ -1,0 +1,32 @@
+﻿<dx:SplashScreenWindow x:Class="WpfSpreadsheetProgressSample.CustomSplashScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxt="http://schemas.devexpress.com/winfx/2008/xaml/core/themekeys"
+        xmlns:mvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+        BorderBrush="{DynamicResource {dxt:BrushesThemeKey ResourceKey=PanelBorder}}" 
+        BorderThickness="1"
+        AllowTheming="True"
+        Height="120"
+        Width="300"
+        DataContext="{x:Static mvvm:DXSplashScreenViewModel.DesignTimeData}">
+    <dx:BackgroundPanel>
+        <StackPanel VerticalAlignment="Center" Margin="16">
+            <TextBlock Text="{Binding Title}"
+                       FontSize="16"
+                       HorizontalAlignment="Left"
+                       Margin="0,0,0,8"/>
+            <ProgressBar IsIndeterminate="False"
+                         Height="20"
+                         Width="240"
+                         Value="{Binding Progress}"/>
+            <TextBlock Text="Cancel"
+                       HorizontalAlignment="Right"
+                       Margin="0,8,0,0"
+                       Foreground="#FF1686F5"
+                       TextDecorations="Underline"
+                       Cursor="Hand"
+                       MouseLeftButtonUp="Cancel_Click" />
+        </StackPanel>
+    </dx:BackgroundPanel>
+</dx:SplashScreenWindow>
