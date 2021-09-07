@@ -1,5 +1,5 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WpfSpreadsheetProgressSample", "WpfSpreadsheetProgressSample\WpfSpreadsheetProgressSample.vbproj", "{1E869B39-473F-45BD-9F21-65F625A995B0}"

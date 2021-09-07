@@ -1,9 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSpreadsheetProgressSample", "WpfSpreadsheetProgressSample\WpfSpreadsheetProgressSample.csproj", "{1E869B39-473F-45BD-9F21-65F625A995B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSpreadsheetProgressSample", "WpfSpreadsheetProgressSample\WpfSpreadsheetProgressSample.Net5.csproj", "{1E869B39-473F-45BD-9F21-65F625A995B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
