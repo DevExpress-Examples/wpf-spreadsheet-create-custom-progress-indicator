@@ -21,3 +21,7 @@ This example demonstrates how to use a custom [splash screen](https://docs.devex
 ![Spreadsheet - Custom Progress Indicator](./images/spreadsheet-custom-progress-indicator.png)
 
 Use [IProgressIndicationService](https://docs.devexpress.com/CoreLibraries/DevExpress.Services.IProgressIndicationService) to create a custom progress indicator. Create a class that implements this interface and pass a class instance to the [SpreadsheetControl.ReplaceService](https://docs.devexpress.com/WPF/DevExpress.Xpf.Spreadsheet.SpreadsheetControl.ReplaceService--1(--0)) method to replace the default progress indication service with your own service.
+
+## Documentation
+
+- [Create a Custom Progress Indicator for the Spreadsheet Control](https://docs.devexpress.com/WPF/403147/controls-and-libraries/spreadsheet/getting-started/create-a-custom-progress-indicator-for-the-spreadsheet)
